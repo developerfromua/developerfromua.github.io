@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+
+  <title>Portfolio</title>
+  <meta name="description" content="" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link rel="icon" href="img/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png" />
+
+  <meta name="theme-color" content="#000" />
+  <link rel="stylesheet" href="css/main.min.css" />
+</head>
+
+<body id="body">
+  <header class="main-menu">
+    <div class="container">
+      <div class="header">
+        <nav class="menu">
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <nav id="js-nav" class="nav">
+          <ul class="list">
+            <li><a href="#home" class="m-menu-link active">Home</a></li>
+            <li><a href="#about" class="m-menu-link">About me</a></li>
+            <li><a href="#skills" class="m-menu-link">Skills</a></li>
+            <li><a href="#portfolio" class="m-menu-link">Portfolio</a></li>
+            <li><a href="#contacts" class="m-menu-link">Contacts</a></li>
+        </nav>
+        <!-- <div id="js-hamburger" class="hamburger" type="button"> -->
+        <div id="js-hamburger" class="hamburger">
+          <span id="js-top-line" class="top-line"></span>
+          <span id="js-center-line" class="center-line"></span>
+          <span id="js-bottom-line" class="bottom-line"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="s-main-info" id="home">
+    <div class="container">
+      <div class="d-sm-flex flex-row justify-content-between">
+        <div class="align-self-end developer-name">
+          <p>Eugene</p>
+          <p>Babarykin</p>
+        </div>
+        <div class="align-self-end profession">
+          <p>HTML | CSS developer</p>
+          <p>23 years old, Russia</p>
+        </div>
+        <div class="align-self-end language">
+          <a href="./ru/index.html">RU</a> | <a href="./index.html" class="active">ENG</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="s-photo">
+    <div class="container">
+      <div class="row">
+        <img src="img/photo.png" alt="" class="img-responsive profile-photo">
+        <img src="img/mobile-photo.jpg" alt="" class="img-responsive mobile-profile-photo">
+      </div>
+    </div>
+  </section>
+  <section class="s-about s-gray" id="about">
+    <div class="container">
+      <div class="f-container">
+        <div class="about-me">
+          <h1>About me</h1>
+          <p>Hi, I'm Eugene – HMTL/CSS developer from Russia.
+            I'm interested in web-development and everything connected with it.</p><br>
+          <p>I am self-taught from various sources of information on the Internet.</p><br>
+          <p>Ready to implement excellent projects with wonderful people.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="s-skills" id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Skills</h1>
+          <p>I work in such programs as</p>
+        </div>
+        <div class="skills-items">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="item">
+                <img src="img/icons/PS.svg" class="icon" alt="alt">
+                <p>Adobe <br>Photoshop</p>
+                <img src="img/icons/3stars.jpg" class="rating" alt="alt">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="item">
+                <img src="img/icons/XD.svg" class="icon" alt="alt">
+                <p>Adobe <br>XD</p>
+                <img src="img/icons/4stars.jpg" class="rating" alt="alt">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="item">
+                <img src="img/icons/VS.svg" class="icon" alt="alt">
+                <p>Visual <br>Studio Code</p>
+                <img src="img/icons/4stars.jpg" class="rating" alt="alt">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="item">
+                <img src="img/icons/Figma.svg" class="icon" alt="alt">
+                <p>Figma</p>
+                <img src="img/icons/4stars.jpg" class="rating" alt="alt">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="s-portfolio s-gray" id="portfolio">
+    <div class="container">
+      <h1>Portfolio</h1>
+      <div class="portfolio-item">
+        <img src="img/example2.jpg" class="img-responsive img-width" alt="alt">
+        <div class="text-center">
+          <a href="#" class="hoverable">Example #1 - Home Page example.com</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="img/example2.jpg" class="img-responsive img-width" alt="alt">
+        <div class="text-center">
+          <a href="#" class="hoverable">Example #2 - Home Page example.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="s-contacts" id="contacts">
+    <div class="container">
+      <h1>Contacts</h1>
+      <p>Want to know more or just chat?</p>
+      <p>You are welcome!</p>
+      <!-- <div class="text-center">
+        <button class="button">Send message</button>
+      </div> -->
+      <div class="c-link">
+        <div class="c-link-item">
+          <a href="mailto:arcseostd@gmail.com">
+            <img src="img/icons/gmail.svg" alt="alt">
+          </a>
+        </div>
+        <div class="c-link-item">
+          <a href="https://t.me/thenewlights">
+            <img src="img/icons/telegram.svg" alt="alt">
+          </a>
+        </div>
+        <div class="c-link-item">
+          <a href="https://wa.me/+79595077892">
+            <img src="img/icons/whatsapp.svg" alt="alt">
+          </a>
+        </div>
+      </div>
+      <p>Contact me <br> using the links above</p>
+    </div>
+  </section>
+  <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
